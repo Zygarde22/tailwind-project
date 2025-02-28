@@ -7,66 +7,82 @@
 </head>
 
 <body class="bg-gray-100">
-
-    <!-- Header -->
-    <header class="bg-white shadow-md p-4 flex items-center justify-between">
-        <!-- Logo Section -->
-        <a href="#" class="flex items-center">
+    <!-- Header Section -->
+    <div class="flex lg:flex-1">
+        <a href="#" class="-m-1.5 p-1.5 flex items-center">
             <img class="h-10 w-auto" src="logo.png" alt="Khris Game Reviews">
             <span class="ml-2 text-lg font-bold text-gray-900">Khris Game Reviews</span>
         </a>
+    </div>
 
-        <!-- Navigation -->
-        <nav class="hidden md:flex space-x-6">
-            <a href="#" class="text-indigo-600 font-semibold hover:text-indigo-800">Home</a>
-            <a href="#" class="text-indigo-600 font-semibold hover:text-indigo-800">Latest Reviews</a>
-            <a href="#" class="text-indigo-600 font-semibold hover:text-indigo-800">Top Rated</a>
-            <a href="#" class="text-indigo-600 font-semibold hover:text-indigo-800">Submit a Review</a>
-        </nav>
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md p-4 flex justify-center space-x-6">
+        <a href="#" class="text-indigo-600 font-semibold">Home</a>
+        <a href="#" class="text-indigo-600 font-semibold">Latest Reviews</a>
+        <a href="#" class="text-indigo-600 font-semibold">Top Rated</a>
+        <a href="#" class="text-indigo-600 font-semibold">Submit a Review</a>
+    </nav>
 
-        <!-- Mobile Menu Button -->
-        <button class="md:hidden text-indigo-600 focus:outline-none">
-            ☰
-        </button>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="relative bg-cover bg-center h-64 flex items-center justify-center text-white text-center"
-        style="background-image: url('hero-bg.jpg');">
-        <div class="bg-black bg-opacity-50 p-6 rounded">
-            <h1 class="text-3xl font-bold">Welcome to Khris Game Reviews</h1>
-            <p class="mt-2 text-lg">Honest and in-depth reviews of your favorite games!</p>
+    <!-- Hero Section (Background Image with Centered Text) -->
+    <section class="relative bg-cover bg-center h-96" style="background-image: url('your-hero-image.jpg');">
+        <div class="flex items-center justify-center h-full bg-black bg-opacity-50">
+            <h1 class="text-white text-4xl font-bold">Welcome to Khris Game Reviews</h1>
         </div>
     </section>
 
-    <!-- Main Content -->
+    <!-- Featured Games Section -->
+    <section class="mt-10">
+        <h2 class="text-2xl font-bold text-gray-800 mb-4">Featured Games</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+            <!-- Game 1 -->
+            <div class="bg-gray-50 p-4 rounded-lg shadow">
+                <img src="game1.jpg" alt="Game 1" class="h-48 w-full object-cover rounded-md">
+                <h3 class="text-lg font-semibold text-indigo-700 mt-4">Fallout</h3>
+                <p class="text-gray-600 mt-2">The first of the Fallout series, turn based and gritty</p>
+            </div>
+            <!-- Game 2 -->
+            <div class="bg-gray-50 p-4 rounded-lg shadow">
+                <img src="game2.jpg" alt="Game 2" class="h-48 w-full object-cover rounded-md">
+                <h3 class="text-lg font-semibold text-indigo-700 mt-4">Sid Meirs:Pirates</h3>
+                <p class="text-gray-600 mt-2">Explore an open world with endless possibilities.</p>
+            </div>
+            <!-- Game 3 -->
+            <div class="bg-gray-50 p-4 rounded-lg shadow">
+                <img src="game3.jpg" alt="Game 3" class="h-48 w-full object-cover rounded-md">
+                <h3 class="text-lg font-semibold text-indigo-700 mt-4">Journey</h3>
+                <p class="text-gray-600 mt-2">An emotional journey through stunning landscapes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Section -->
     <main class="max-w-5xl mx-auto mt-6 p-6 bg-white shadow-lg rounded-lg">
         <h2 class="text-2xl font-bold text-gray-800 mb-4">Latest Game Reviews</h2>
-
         <div class="grid md:grid-cols-2 gap-6">
             <div class="bg-gray-50 p-4 rounded-lg shadow">
                 <h3 class="text-lg font-semibold text-indigo-700">DOOM + DOOM 2</h3>
-                <p class="text-gray-600"> The classic boomer shooter. In one Package, I'm quite enamored by this game, it's jam-packed with extras. </p>
+                <p class="text-gray-600"> The classic boomer shooter. In one Package, I'm quite enamored by this game, it's jam packed with extras. </p>
                 <p class="mt-2 text-gray-900 font-bold">Rating: ⭐⭐⭐⭐⭐</p>
             </div>
             <div class="bg-gray-50 p-4 rounded-lg shadow">
-                <h3 class="text-lg font-semibold text-indigo-700">Wolfenstein II: The New Colossus</h3>
-                <p class="text-gray-600">Sequel to Wolfenstein: The New Order. Just as gory and fun as ever, but the near-constant death on higher difficulties keeps it from a 5/5.</p>
+                <h3 class="text-lg font-semibold text-indigo-700">Wolfenstien II: The New Colosus</h3>
+                <p class="text-gray-600">Sequel to Wolfenstien: The New Order Just as gory and fun as ever, but the near constant death by enemies on high er difficltures is keeping it from getting a 5/5</p>
                 <p class="mt-2 text-gray-900 font-bold">Rating: ⭐⭐⭐⭐☆</p>
             </div>
             <div class="bg-gray-50 p-4 rounded-lg shadow">
-                <h3 class="text-lg font-semibold text-indigo-700">Psychonauts 2</h3>
-                <p class="text-gray-600">A long-awaited sequel to the classic 3D platformer.</p>
+                <h3 class="text-lg font-semibold text-indigo-700"> Psychonauts 2</h3>
+                <p class="text-gray-600">A long awaited Sequel to the Classic 3D Platformer. </p>
                 <p class="mt-2 text-gray-900 font-bold">Rating: ⭐⭐⭐⭐⭐</p>
             </div>
             <div class="bg-gray-50 p-4 rounded-lg shadow">
                 <h3 class="text-lg font-semibold text-indigo-700">Starfield</h3>
-                <p class="text-gray-600">Vast freedom in a galaxy of our own.</p>
+                <p class="text-gray-600">Vast Freedom in a Galaxy of our own. </p>
                 <p class="mt-2 text-gray-900 font-bold">Rating: ⭐⭐⭐⭐⭐</p>
             </div>
         </div>
     </main>
 
+    <!-- Footer Section -->
     <footer class="bg-indigo-600 text-white text-center p-4 mt-6">
         &copy; 2025 Khris Game Reviews | All Rights Reserved
     </footer>
