@@ -6,19 +6,19 @@ This repository contains the code for the **Khris Game Reviews** website, develo
 
 - **Cap 1: Header Section**
   - The screenshot shows the header with the logo and navigation links styled using Tailwind CSS. This section should be responsive, adjusting appropriately on different screen sizes.
-  - ![Cap 1: Header Section](./cap%201.jpg)
+  - ![Cap 1: Header Section](./cap1.JPG.jpg)
 
 - **Cap 2: Hero Section**
   - The screenshot shows the hero section with a background image and centered text, styled using Tailwind CSS Flexbox classes.
-  - ![Cap 2: Hero Section](./cap%202.jpg)
+  - ![Cap 2: Hero Section](./cap2.JPG.jpg)
 
 - **Cap 3: Content Sections**
   - This screenshot demonstrates multiple content sections created with Tailwind CSS Grid and Flexbox classes to create a responsive layout.
-  - ![Cap 3: Content Sections](./cap%203.jpg)
+  - ![Cap 3: Content Sections](./cap3.JPG)
 
 - **Cap 4: Footer Section**
   - The screenshot shows the footer element with links and other content, laid out using Tailwind CSS Grid classes for a responsive design.
-  - ![Cap 4: Footer Section](./cap%204.jpg)
+  - ![Cap 4: Footer Section](./cap4.JPG.jpg)
 
 ## How to View the Project
 
